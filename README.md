@@ -9,7 +9,7 @@ When the ball touches the ground then you lose GAME OVER..!! If you destroy all 
 before the bricks touches the ground then you win HURRAY..!!
 
 # Instructions for installation
->Clone thi repository with command 
+>Clone this repository with command 
 ```bash
 git clone https://github.com/sdp4377/ZOHO-Assignment_BRICK-BALL.git
 ```
@@ -65,7 +65,8 @@ python solution_4.py
 - Run solution_5.py
 
 ```bash
-python solution_35.py 
+python solution_5.py 
 ```
 ![image](https://user-images.githubusercontent.com/88933367/158053012-4ad2b409-d628-4e30-ad22-13e29b92a890.png)
 
+# THANK YOU 
