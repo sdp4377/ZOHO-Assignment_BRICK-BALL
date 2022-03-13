@@ -1,5 +1,7 @@
 # ZOHO-Assignment_BRICK-BALL
-This is a Solution for the ZOHO-Interview /Assignment question (Brick-Ball)
+**Hi, This is S Deva Prasad**
+
+*This is a Solution for the ZOHO-Interview /Assignment question (Brick-Ball)*
 # Ball Brick
    ![Ball-Brick_image](https://user-images.githubusercontent.com/88933367/158050705-e7c56edd-c3e6-4339-a4ef-125a00a2f2b0.png)
 
