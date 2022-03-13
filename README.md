@@ -16,6 +16,7 @@ For QUESTION 1
 ```bash
 python solution_1.py 
 ```
+![image](https://user-images.githubusercontent.com/88933367/158052883-d93b614b-b18a-4872-9af3-4126775d9290.png)
 
 
 For QUESTION 2
@@ -25,6 +26,7 @@ For QUESTION 2
 ```bash
 python solution_2.py 
 ```
+![image](https://user-images.githubusercontent.com/88933367/158052942-a42b2d7e-f4c7-4fd5-b6a9-daccf6161129.png)
 
 
 For QUESTION 3
@@ -34,6 +36,7 @@ For QUESTION 3
 ```bash
 python solution_3.py 
 ```
+![image](https://user-images.githubusercontent.com/88933367/158052977-84296914-d52b-424b-959b-cbfc8d2b5650.png)
 
 
 For QUESTION 4
@@ -43,6 +46,7 @@ For QUESTION 4
 ```bash
 python solution_4.py 
 ```
+![image](https://user-images.githubusercontent.com/88933367/158052988-63a3d4c1-0ea0-434c-9f32-c809abaabab8.png)
 
 
 For QUESTION 5
@@ -52,3 +56,4 @@ For QUESTION 5
 ```bash
 python solution_35.py 
 ```
+![image](https://user-images.githubusercontent.com/88933367/158053012-4ad2b409-d628-4e30-ad22-13e29b92a890.png)
