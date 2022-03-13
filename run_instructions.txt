@@ -1,7 +1,33 @@
-      The Program is written on Python 
+##########################################################################################
+                                  BRICK-BALL
+##########################################################################################
+Ball brick is a game where there will be a ball at the ground level and with that ball you have to destroy all the bricks above it. For each hit the bricks will come closer to ground level. When the ball touches the ground then you lose GAME OVER..!! If you destroy all the bricks before the bricks touches the ground then you win HURRAY..!!+
 
-      Please find the attached Program file "solution 01.py""solution 02.py""solution 03.py""solution 04.py""solution 05.py". I have done programming in Python language.
-       
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                              INSTALLATION & EXECUTION
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-      I have done the problem "Ball Brick" as part of the interview,Assignment process of ZOHO recruitment. I finished entire part of the problem given. 
+The Program is written in Python Language
+
+Since you need a Python Application
+
+For Windows OS ,  
+==>  Download Python App and install 
+==>  Download zip file and extract zip
+==>  open Command prompt in extracted Directory 
+==>  Run the Program "python FileName.py"
+
+For Linux OS , 
+==>  Open terminal
+==>  Clone Repository with " git clone https://github.com/sdp4377/ZOHO-Assignment_BRICK-BALL.git "
+==>  Enter into the Directory cloned directory with " cd ZOHO-Assignment_BRICK-BALL "
+==>  Download python with " sudo apt-get install python "
+==>  Run program with " python3 FileName.py "
+
+For Termux on Android, 
+==>  Open Termux app 
+==>  Clone Repository with " git clone https://github.com/sdp4377/ZOHO-Assignment_BRICK-BALL.git "
+==>  Enter into the Directory cloned directory with " cd ZOHO-Assignment_BRICK-BALL "
+==>  Download python with "apt install python "
+==>  Run program with " python3 FileName.py "
 
