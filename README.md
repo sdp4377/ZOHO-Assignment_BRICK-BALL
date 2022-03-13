@@ -8,6 +8,17 @@ to destroy all the bricks above it. For each hit the bricks will come closer to 
 When the ball touches the ground then you lose GAME OVER..!! If you destroy all the bricks
 before the bricks touches the ground then you win HURRAY..!!
 
+#Instructions for installation
+>Clone thi repository with command 
+```bash
+git clone https://github.com/sdp4377/ZOHO-Assignment_BRICK-BALL.git
+```
+>Enter the cloned Directory  
+```bash 
+cd ZOHO-Assignment_BRICK-BALL
+```
+
+
 # Instructions to run program 
 **For QUESTION 1**
 
