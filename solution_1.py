@@ -18,11 +18,10 @@ def array(x):
 
         if i==0:  
 
-          abc=game[0] 
+            abc=game[0] 
 
-          for h in range(x): 
-
-              abc.append("W")   
+            for _ in range(x):
+                abc.append("W")   
 
         elif i==(x-1): 
 
@@ -32,8 +31,7 @@ def array(x):
 
             finalrow.append("W") 
 
-            for i in range(x-2): 
-
+            for _ in range(x-2):
                 finalrow.append("G") 
 
             finalrow.append("W") 
@@ -46,8 +44,7 @@ def array(x):
 
             asd.append("W") 
 
-            for i in range(x-2): 
-
+            for _ in range(x-2):
                 asd.append(" ") 
 
             asd.append("W") 
@@ -92,11 +89,11 @@ ballcount=int(ballcount)
 
 def printmat(): 
 
-    for i in range(0,size): 
+    for i in range(size): 
 
         row="" 
 
-        for j in range(0,size): 
+        for j in range(size): 
 
             chart=game[i][j] 
 

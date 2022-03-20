@@ -30,8 +30,7 @@ def array(x):
 
             abc=game[0] 
 
-            for h in range(x): 
-
+            for _ in range(x):
                 abc.append("W")   
 
         elif i==(x-1): 
@@ -40,8 +39,7 @@ def array(x):
 
             finalrow.append("W") 
 
-            for i in range(x-2): 
-
+            for _ in range(x-2):
                 finalrow.append("G") 
 
             finalrow.append("W") 
@@ -54,8 +52,7 @@ def array(x):
 
             asd.append("W") 
 
-            for i in range(x-2): 
-
+            for _ in range(x-2):
                 asd.append(" ") 
 
             asd.append("W") 
@@ -80,39 +77,17 @@ def destroy(direction):
 
     if direction=="LD": 
 
-        if game[size-1][mid-1]=='_': 
+        game[size-1][mid] = "_" if game[size-1][mid-1]=='_' else "G"
+        mid=mid-1 
 
-            game[size-1][mid]="_" 
-
-            mid=mid-1 
-
-            game[size-1][mid]="o" 
-
-        else: 
-
-            game[size-1][mid]="G"  
-
-            mid=mid-1 
-
-            game[size-1][mid]="o" 
+        game[size-1][mid]="o" 
 
     elif direction=="RD": 
 
-        if game[size-1][mid+1]=='_': 
+        game[size-1][mid] = "_" if game[size-1][mid+1]=='_' else "G"
+        mid=mid+1 
 
-            game[size-1][mid]="_" 
-
-            mid=mid+1 
-
-            game[size-1][mid]="o" 
-
-        else: 
-
-            game[size-1][mid]="G" 
-
-            mid=mid+1 
-
-            game[size-1][mid]="o" 
+        game[size-1][mid]="o" 
 
     else: 
 
@@ -164,8 +139,6 @@ def destroy(direction):
 
                     game[x+1][mid+1]=" " 
 
-                    break 
-
                 elif mid==(size-2): 
 
                     game[x][mid]=" " 
@@ -177,8 +150,6 @@ def destroy(direction):
                     game[x-1][mid]=" " 
 
                     game[x+1][mid-1]=" "  
-
-                    break 
 
                 else: 
 
@@ -198,7 +169,7 @@ def destroy(direction):
 
                     game[x+1][mid+1]=" "     
 
-                    break       
+                break 
 
             else: 
 
@@ -234,11 +205,11 @@ ballcount=int(ballcount)
 
 def printmat(): 
 
-    for i in range(0,size): 
+    for i in range(size): 
 
         row="" 
 
-        for j in range(0,size): 
+        for j in range(size): 
 
             chart=str(game[i][j]) 
 

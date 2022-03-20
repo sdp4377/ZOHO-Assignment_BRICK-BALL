@@ -24,8 +24,7 @@ def array(x):
 
             abc=game[0] 
 
-            for h in range(x): 
-
+            for _ in range(x):
                 abc.append("W")   
 
         elif i==(x-1): 
@@ -34,8 +33,7 @@ def array(x):
 
             finalrow.append("W") 
 
-            for i in range(x-2): 
-
+            for _ in range(x-2):
                 finalrow.append("G") 
 
             finalrow.append("W") 
@@ -48,8 +46,7 @@ def array(x):
 
             asd.append("W") 
 
-            for i in range(x-2): 
-
+            for _ in range(x-2):
                 asd.append(" ") 
 
             asd.append("W") 
@@ -90,23 +87,14 @@ def destroy(direction):
 
         print("ST") 
 
-    
+
 
     for x in range(size-2,0,-1):  
 
         if game[x][mid]!=" ": 
 
-            if game[x][mid]=="1": 
-
-                game[x][mid]=" " 
-
-                break 
-
-            else: 
-
-                game[x][mid]=str(int(game[x][mid])-1) 
-
-                break    
+            game[x][mid] = " " if game[x][mid]=="1" else str(int(game[x][mid])-1)
+            break    
 
   
 
@@ -136,11 +124,11 @@ ballcount=int(ballcount)
 
 def printmat(): 
 
-    for i in range(0,size): 
+    for i in range(size): 
 
         row="" 
 
-        for j in range(0,size): 
+        for j in range(size): 
 
             chart=str(game[i][j]) 
 
